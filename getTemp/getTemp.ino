@@ -1,16 +1,14 @@
-/*returns C degrees in millicelsius and F degrees in microfahrenheit*/
-int getTemp (){
+/*returns C degrees in millicelsius*/ 
+int getCelsius (){
 
 read_in = analogRead(A0);
-int celsius = (500000*read_in)/1024-50;
-
-if (isCelsius == true){
-	return celsius;
+return = (500000*read_in)/1024-50;
 }
 
-else{
+/*and F degrees in microfahrenheit*/
+int getFahrenheit(celsius){
 	return (celsius*338-320000);
 }
-}
+
 
 
